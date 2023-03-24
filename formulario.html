@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="navbar">
+     <div class="container">
+         <div class="logo_div"> 
+        <img src="imagens/logo.png" class="logo">
+    </div>
+    <div class="navbar_links">
+        <ul class="menu">
+            <center>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="sneakers.html">Sneakers</a></li>
+            <li><a href="sobre.html">Sobre nós</a></li>
+            <li><a href="contatos.html">Contatos</a></li>
+            <li><a href="formulario.html">Formulário</a></li>
+            </center>
+        </ul>
+    </div>
+    </div>
+</div>
+    <form action="https://teste-reusetech.000webhostapp.com/prova5.php" method="POST">
+        
+    <div class="caixas">
+        <fieldset>
+            <legend >Dados Pessoais</legend>
+            
+            <label for="nomecompleto">ﾠNome Completo:ﾠ</label>
+            <input type="text" name="nomecompleto" placeholder="ﾠSeu Nome" class="inputs"><br>
+            
+                <br>
+                <label for="idade">ﾠIdade:ﾠ</label>
+                <input type="number" name="lname" placeholder="ﾠSua Idade" class="inputs"><br>
+                
+                <br>
+                <label for="email">ﾠEmail:ﾠ</label>
+                <input type="email" name="email" placeholder="ﾠSeu Email" class="inputs"><br>
+                
+                <br>
+                <label for="email">ﾠData de Nascimento:ﾠ</label>
+                <input type="date" name="ano" placeholder="        ﾠEm que ano nasceu?" class="inputs"><br>
+                
+                <br>
+                <label for="sexo">ﾠSexo: ㅤ</label>
+                <input type="radio" name="sexo" value="mas">
+                <label>Masculino ㅤ</label>
+                <input type="radio" name="sexo" value="fem">
+                <label>Feminino ㅤ</label>
+                
+            </fieldset>
+            <br>
+            <fieldset>
+                
+                <legend >Endereço</legend>
+
+                <label for="logradouro">ﾠLogradouro:ﾠ</label>
+                <input type="text" name="logradouro" placeholder="ﾠRua, Avenida ..." class="inputs"><br>
+                
+                <br>
+                <label for="número">ﾠNúmero:ﾠ</label>
+                <input type="number" name="numero" placeholder="ﾠEx: 123" class="inputs"><br>
+                
+                <br>
+                <label for="cep">ﾠCEP:ﾠ</label>
+                <input type="text" name="cep" placeholder="ﾠEx: 12345-123" class="inputs"><br>
+                
+                <br>
+                <label for="bairro">ﾠBairro:ﾠ</label>
+                <input type="text" name="bairro" placeholder="ﾠEx: Madureira" class="inputs"><br>
+
+                <br>
+                <label for="cidade">ﾠCidade:ﾠ</label>
+                <input type="text" name="cidade" placeholder="ﾠEx: Rio de Janeiro" class="inputs">
+                
+            </fieldset>
+            <br>
+        <fieldset>
+            <legend >Orçamento</legend>
+            
+            <label for="produto">ﾠProduto:ﾠ</label>
+            <input type="text" name="prod" placeholder="ﾠNome do produto visto no site" class="inputs"><br>
+            
+            <br>
+            <label for="quantidade">ﾠQuantidade:ﾠ</label>
+            <input type="number" name="quant" placeholder="ﾠQuanto deseja comprar?" class="inputs"><br>
+            
+            <br>
+            <label for="preço">ﾠPreço do produto:ﾠ</label>
+            <input type="number" name="preco" placeholder="ﾠValor do preço" class="inputs"><br>
+            
+            <br>
+            <label for="pagar">ﾠForma de pagamento:ﾠ</label>
+            <input type="radio" name="paga" value="din">
+            <label>Dinheiro ㅤ</label>
+            <input type="radio" name="paga" value="deb">
+            <label>Cartão de débito ㅤ</label>
+            <input type="radio" name="paga" value="cre">
+            <label>Cartão de crédito ㅤ</label><br>
+            
+            <br>
+            <label for="desconto">ﾠDesconto prentendido:ﾠ</label>
+            <input type="number" name="desc" placeholder="ㅤPorcentagem desejada" class="inputs">
+            
+        </fieldset>
+        <br>
+        <div class="enviar">
+            <input type="submit" name="" value="Enviar" class="inputs">
+            <input type="reset" name="" value="Apagar tudo" class="inputs">
+        </div>
+    </div>
+    </form>
+    <br>
+</body>
+</html>
